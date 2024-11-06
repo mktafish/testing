@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2559.1">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="en"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1">&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1">&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
+<p class="p1">&lt;title&gt;Profile Card&lt;/title&gt;</p>
+<p class="p1">&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>/* General Reset */</p>
+<p class="p1"><span class="Apple-converted-space">    </span>* {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>box-sizing: border-box;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>margin: 0;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>padding: 0;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>font-family: Arial, sans-serif;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>/* Body Styling */</p>
+<p class="p1"><span class="Apple-converted-space">    </span>body {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>justify-content: center;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>height: 100vh;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>background-color: #f0f0f0;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>/* Card Styling */</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.profile-card {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>width: 300px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>background-color: #fff;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>border-radius: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>padding: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>/* Profile Picture Styling */</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.profile-card .profile-image {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>width: 100px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>height: 100px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>border-radius: 50%;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>overflow: hidden;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>margin: 0 auto 10px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>border: 3px solid #007bff;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.profile-card .profile-image img {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>width: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>height: auto;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>/* Text Styling */</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.profile-card h2 {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>font-size: 1.5em;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>color: #333;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.profile-card h4 {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>font-size: 1em;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>color: #666;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>margin-bottom: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.profile-card p {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>font-size: 0.9em;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>color: #888;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>margin-bottom: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>line-height: 1.4;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>/* Button Styling */</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.profile-card .contact-buttons a {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>display: block;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>width: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>margin: 5px 0;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>padding: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>text-decoration: none;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>color: #fff;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>border-radius: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>font-size: 1em;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>font-weight: bold;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.profile-card .contact-buttons .email-btn {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>background-color: #007bff;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.profile-card .contact-buttons .phone-btn {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>background-color: #28a745;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>.profile-card .contact-buttons .website-btn {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>background-color: #ffc107;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1">&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;div class="profile-card"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="profile-image"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;img src="https://via.placeholder.com/100" alt="Profile Picture"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2&gt;Alexander&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h4&gt;Art Director&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;Luxury Auto Dealership&lt;br&gt;Over 9 years of experience in auto sales, dedicated to bridging.&lt;/p&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="contact-buttons"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="mailto:example@example.com" class="email-btn"&gt;Email&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="tel:+1234567890" class="phone-btn"&gt;Phone&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="https://example.com" class="website-btn"&gt;Website&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1">&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
